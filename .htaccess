@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteRule ^Tn_Blog$ index.php [L]
+RewriteRule ^Home$ index.php [L]
+RewriteRule ^About$ page/about.php [L]
+
+</IfModule>
